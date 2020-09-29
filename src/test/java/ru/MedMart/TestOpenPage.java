@@ -4,7 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class OpenPage extends WebDriverSettings {
+public class TestOpenPage extends WebDriverSettings {
     //проверка прогрузки страницы
     @Test
     public void OpenPageHome() throws InterruptedException {

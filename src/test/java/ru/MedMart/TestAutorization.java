@@ -2,7 +2,7 @@ package ru.MedMart;
 
 import org.junit.Test;
 
-public class Autorization extends WebDriverSettings {
+public class TestAutorization extends WebDriverSettings {
     @Test
     public void Autorization() throws InterruptedException {
         driver.get("https://medmartonline.com");
