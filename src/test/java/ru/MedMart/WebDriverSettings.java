@@ -5,6 +5,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.Date;
 import java.util.Random;
 
 public class WebDriverSettings {
@@ -22,6 +25,8 @@ public class WebDriverSettings {
     }
     Random random = new Random();
     int n = random.nextInt(100) +3;
+
+
 
 //
 //    @After
